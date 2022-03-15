@@ -28,6 +28,14 @@ const SignupForm = () => {
         tabagista: '',
         etilismo: '',
         dispineia: '',
+        dispParNoturna: '',
+        palpitacoes: '',
+        outrasManifestacoes: '',
+        dm: '',
+        has: '',
+        dlp: '',
+        dpoc: '',
+        
 
 
          }}
@@ -108,6 +116,11 @@ const SignupForm = () => {
           <option value="Cardiomiopatia">Cardiomiopatia</option>
           <option value="Congenita">Congenita</option>
           <option value="Cardiotoxicidade">Cardiotoxicidade</option> 
+          <option value="Alcóolica">Alcóolica</option>
+          <option value="Doencas extracardiacas">Doencas extracardiacas</option>
+          <option value="Taquicardiomiopatia">Taquicardiomiopatia</option>
+          <option value="Miocardites">Miocardites</option>
+          <option value="Periparto">Periparto</option>
         </MySelect>
 
         {values.etiologiaIC === "Cardiomiopatia" ? 
@@ -135,6 +148,137 @@ const SignupForm = () => {
           <option value="C">C</option>
           <option value="D">D</option>          
         </MySelect>
+
+        <label htmlFor="pressaoArterial">Pressão Arterial</label>
+        <Field name="pressaoArterial" type="text" />
+        <ErrorMessage name="pressaoArterial" />
+
+        <label htmlFor="freqCardiaca">N prontuario</label>
+        <Field name="freqCardiaca" type="number" />
+        <ErrorMessage name="freqCardiaca" />
+
+        <label>Pratica Atividade</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="fazAtvFis" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="fazAtvFis" value="nao" />
+              Nao
+            </label>           
+          </div>
+
+          <label>Etilismo</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="etilismo" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="etilismo" value="nao" />
+              Nao
+            </label>           
+          </div>
+
+          <label>Tabagismo</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="tabagista" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="tabagista" value="nao" />
+              Nao
+            </label>           
+          </div>
+
+          <label>Dispneia</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="despneia" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="despneia" value="nao" />
+              Nao
+            </label>           
+          </div>
+
+          <label>Dispneia paroxística noturna</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="dispParNoturna" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="dispParNoturna" value="nao" />
+              Nao
+            </label>           
+          </div>
+
+          <label>Tabagismo</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="tabagista" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="tabagista" value="nao" />
+              Nao
+            </label>           
+          </div>
+
+          <label>Tabagismo</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="tabagista" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="tabagista" value="nao" />
+              Nao
+            </label>           
+          </div>
+
+          <label>Tabagismo</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="tabagista" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="tabagista" value="nao" />
+              Nao
+            </label>           
+          </div>
+
+          <label>Tabagismo</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="tabagista" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="tabagista" value="nao" />
+              Nao
+            </label>           
+          </div>
+
+          <label>Tabagismo</label>
+          <div role="group" aria-labelledby="select-idade">
+            <label>
+              <Field type="radio" name="tabagista" value="sim" />
+              Sim
+            </label>
+            <label>
+              <Field type="radio" name="tabagista" value="nao" />
+              Nao
+            </label>           
+          </div>
+      
+
+
         
 
 
